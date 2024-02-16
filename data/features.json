@@ -8,7 +8,7 @@
     "title": "Whatsapp",
     "description": "Entre em contato agora mesmo com o nosso Whatsapp e faça seu orçamento!",
     "icon": "icon-message",
-    "link": "https://l.instagram.com/?u=http%3A%2F%2Fapi.whatsapp.com%2Fsend%3F1%3Dpt_BR%26phone%3D5524999043166&e=AT2UEEYTWnLCSTXJ1cVfg8nSdVQ9wsb88hux3DN12piD2U47Xe1nNa2TnD3bdQGOjJJlSLt_jQxWLtVZnhzZ0jNLrIWpKAybz0Gt66bqlfcCm3xV"
+    "link": "https://api.whatsapp.com/send?1=pt_BR&phone=5524999043166"
   },
   {
     "title": "Nosso diferencial",
