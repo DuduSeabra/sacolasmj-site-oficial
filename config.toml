@@ -1,0 +1,78 @@
+baseURL = "https://sacolasmj.netlify.app"
+title = "Sacolas MJ"
+author = "username"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "Tella Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "Sacolas MJ"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_og_title = "Tella"
+    meta_og_type = "website"
+    meta_og_url = "https://tella.pages.dev"
+    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@username"
+    meta_twitter_creator = "@username"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "produtos"
+    name = "Produtos"
+    url = "/products/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contato"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Instagram"
+    url = "https://www.instagram.com/sacolas_mj/"
+    pre = '''
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px"><g fill="#374151" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z"></path></g></g></svg>
+'''
+    weight = 2
