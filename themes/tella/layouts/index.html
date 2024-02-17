@@ -49,16 +49,14 @@
 
     <div class="banner">
         <div class="swiper-wrapper">
-            {{ range .Site.Data.slide }}
             <div class="swiper-slide">
                 <img src="img/slide/slide01.jpg" alt="">
                 <div class="s-fade-txt">
-                    <h1 id="titulo" class="text-6xl {{ or .color "text-white" }}">Olá, somos a Sacolas MJ!</h1>
+                    <h1 id="titulo" class="text-6xl text-black">Olá, somos a Sacolas MJ!</h1>
                     <br />
                     <p class="text-1xl text-gray-600">Transforme sua marca em uma experiência única</p>
                 </div>
             </div>
-            {{ end }}
         </div>
     </div>
     {{- partial "strip.html" . -}}
