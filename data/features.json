@@ -1,8 +1,9 @@
 [
   {
-    "title": "Sacola Oxi-biodegradável",
-    "description": "A MJS Embalagens é uma empresa licenciada pela RES BRASIL, que coloca a disposição dos seus clientes o plástico oxi-biodegradável, um produto de alta tecnologia, o qual contém um aditivo D2W que na presença da luz direta e do calor, entra em funcionamento fazendo com que haja degradação do plástico.",
-    "icon": "icon-sphere"
+    "title": "Instagram",
+    "description": "Acesse nosso instagram para ver nossos produtos!",
+    "icon": "icon-discord",
+    "link": "https://www.instagram.com/sacolas_mj/"
   },
   {
     "title": "Whatsapp",
