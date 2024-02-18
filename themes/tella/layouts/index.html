@@ -54,7 +54,16 @@
                 <div class="s-fade-txt">
                     <h1 id="titulo" class="text-6xl text-white">Olá, somos a Sacolas MJ!</h1>
                     <br />
-                    <p class="md:text-2xl text-bold text-black">Transforme sua marca em uma experiência única</p>
+                    <p class="md:text-2xl text-bold text-blue-500">Transforme sua marca em uma experiência única</p>
+                    <br />
+                    <button id="botaoProdutos" class="text-sm bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                        Conheça nossos produtos
+                    </button>
+                    <script>
+                        document.getElementById('botaoProdutos').addEventListener('click', function() {
+                            window.location.href = 'https://sacolasmj.netlify.app/products/';
+                        });
+                    </script>
                 </div>
             </div>
         </div>
