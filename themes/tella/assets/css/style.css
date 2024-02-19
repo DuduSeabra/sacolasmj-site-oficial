@@ -1946,11 +1946,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -2751,11 +2746,6 @@ video {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -2789,10 +2779,6 @@ video {
 
   .lg\:max-w-full {
     max-width: 100%;
-  }
-
-  .lg\:max-w-3xl {
-    max-width: 48rem;
   }
 
   .lg\:flex-grow {
