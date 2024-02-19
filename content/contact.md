@@ -1,7 +1,7 @@
 ---
-title: 'Contact'
+title: 'Contato'
 ---
 
-To contact us, please fill out the form below.
+Para entrar em contato conosco, por favor preencha o formulário abaixo.
 
 {{< form >}}
