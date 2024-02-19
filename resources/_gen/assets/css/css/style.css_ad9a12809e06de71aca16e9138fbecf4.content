@@ -1324,18 +1324,6 @@ video {
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1875,11 +1863,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .pb-5 {
@@ -2754,18 +2737,6 @@ video {
   outline-offset: 2px;
 }
 
-@media (min-width: 640px) {
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2781,9 +2752,9 @@ video {
     line-height: 2rem;
   }
 
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -2818,6 +2789,10 @@ video {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:max-w-3xl {
+    max-width: 48rem;
   }
 
   .lg\:flex-grow {
