@@ -10,12 +10,12 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
 <img src="/img/products/semijoia.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
 
+<p>* O preço é o mesmo para todos os tamanhos (15x15x7cm, 15x12x7cm ou 9,5x15x7cm)</p>
+
 <select id="tamanho1" onchange="mostrarPreco1()">
   <option value="" selected>Selecione o tamanho</option>
-  <option value="pp">PP (22x23x10cm)</option>
-  <option value="p">P (32x23x10cm)</option>
-  <option value="m">M (35x29x11cm)</option>
-  <option value="g">G (42x35x12cm)</option>
+  <option value="pp">Alça cordinha</option>
+  <option value="p">Alça de gorgurão</option>
 </select>
 
 <div id="preco1"></div>
@@ -27,28 +27,16 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado1) {
       case "pp":
-        preco1 = "1000 unidades R$ 2,99<br>" +
-                "500 unidades R$ 3,29<br>" +
-                "300 unidades R$ 3,59<br>" +
-                "200 unidades R$ 3,75";
+        preco1 = "1000 unidades R$ 2,40<br>" +
+                "500 unidades R$ 2,69<br>" +
+                "300 unidades R$ 2,77<br>" +
+                "200 unidades R$ 3,09";
         break;
       case "p":
-        preco1 = "1000 unidades R$ 3,05<br>" +
-                "500 unidades R$ 3,44<br>" +
-                "300 unidades R$ 3,64<br>" +
-                "200 unidades R$ 3,78";
-        break;
-      case "m":
-        preco1 = "1000 unidades R$ 3,38<br>" +
-                "500 unidades R$ 3,64<br>" +
-                "300 unidades R$ 3,84<br>" +
-                "200 unidades R$ 3,99";
-        break;
-      case "g":
-        preco1 = "1000 unidades R$ 3,77<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,17<br>" +
-                "200 unidades R$ 4,53";
+        preco1 = "1000 unidades R$ 2,65<br>" +
+                "500 unidades R$ 2,85<br>" +
+                "300 unidades R$ 3,15<br>" +
+                "200 unidades R$ 3,29";
         break;
       default:
         preco1 = "";
@@ -80,28 +68,28 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado2) {
       case "pp":
-        preco2 = "1000 unidades R$ 2,99<br>" +
-                "500 unidades R$ 3,29<br>" +
-                "300 unidades R$ 3,59<br>" +
-                "200 unidades R$ 3,75";
+        preco2 = "1000 unidades R$ 3,39<br>" +
+                "500 unidades R$ 3,69<br>" +
+                "300 unidades R$ 3,89<br>" +
+                "200 unidades R$ 4,13";
         break;
       case "p":
-        preco2 = "1000 unidades R$ 3,05<br>" +
-                "500 unidades R$ 3,44<br>" +
-                "300 unidades R$ 3,64<br>" +
-                "200 unidades R$ 3,78";
+        preco2 = "1000 unidades R$ 3,69<br>" +
+                "500 unidades R$ 3,99<br>" +
+                "300 unidades R$ 4,20<br>" +
+                "200 unidades R$ 4,39";
         break;
       case "m":
-        preco2 = "1000 unidades R$ 3,38<br>" +
-                "500 unidades R$ 3,64<br>" +
-                "300 unidades R$ 3,84<br>" +
-                "200 unidades R$ 3,99";
+        preco2 = "1000 unidades R$ 3,96<br>" +
+                "500 unidades R$ 4,39<br>" +
+                "300 unidades R$ 4,69<br>" +
+                "200 unidades R$ 4,99";
         break;
       case "g":
-        preco2 = "1000 unidades R$ 3,77<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,17<br>" +
-                "200 unidades R$ 4,53";
+        preco2 = "1000 unidades R$ 4,39<br>" +
+                "500 unidades R$ 4,59<br>" +
+                "300 unidades R$ 4,79<br>" +
+                "200 unidades R$ 4,99";
         break;
       default:
         preco2 = "";
@@ -133,28 +121,28 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado3) {
       case "pp":
-        preco3 = "1000 unidades R$ 2,99<br>" +
-                "500 unidades R$ 3,29<br>" +
-                "300 unidades R$ 3,59<br>" +
-                "200 unidades R$ 3,75";
+        preco3 = "1000 unidades R$ 3,39<br>" +
+                "500 unidades R$ 3,69<br>" +
+                "300 unidades R$ 3,89<br>" +
+                "200 unidades R$ 4,13";
         break;
       case "p":
-        preco3 = "1000 unidades R$ 3,05<br>" +
-                "500 unidades R$ 3,44<br>" +
-                "300 unidades R$ 3,64<br>" +
-                "200 unidades R$ 3,78";
+        preco3 = "1000 unidades R$ 3,69<br>" +
+                "500 unidades R$ 3,99<br>" +
+                "300 unidades R$ 4,20<br>" +
+                "200 unidades R$ 4,39";
         break;
       case "m":
-        preco3 = "1000 unidades R$ 3,38<br>" +
-                "500 unidades R$ 3,64<br>" +
-                "300 unidades R$ 3,84<br>" +
-                "200 unidades R$ 3,99";
+        preco3 = "1000 unidades R$ 3,96<br>" +
+                "500 unidades R$ 4,39<br>" +
+                "300 unidades R$ 4,69<br>" +
+                "200 unidades R$ 4,99";
         break;
       case "g":
-        preco3 = "1000 unidades R$ 3,77<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,17<br>" +
-                "200 unidades R$ 4,53";
+        preco3 = "1000 unidades R$ 4,39<br>" +
+                "500 unidades R$ 4,59<br>" +
+                "300 unidades R$ 4,79<br>" +
+                "200 unidades R$ 4,99";
         break;
       default:
         preco3 = "";
