@@ -1,14 +1,13 @@
 ---
-title: "Sacolas de papel"
-date: 2024-02-15T11:45:07-03:00
+title: "Sacolas kraft"
+date: 2024-02-21T22:22:07-03:00
 draft: false
-description: Sacolas de papel personalizáveis de diferentes tamanhos.
+description: Sacolas kraft de diversos tamanhos e finalidades.
 ---
 
+## Sacola kraft alça cordinha
 
-## Sacola semijoias
-
-<img src="/img/products/semijoia.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
+<img src="/img/products/kraft-cordinha.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
 
 <select id="tamanho1" onchange="mostrarPreco1()">
   <option value="" selected>Selecione o tamanho</option>
@@ -58,10 +57,9 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
   }
 </script>
 
+## Sacola kraft alça gorgurão
 
-## Sacola branca alça de gorgurão
-
-<img src="/img/products/branca-gorgurao.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
+<img src="/img/products/kraft-gorgurao.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
 
 <select id="tamanho2" onchange="mostrarPreco2()">
   <option value="" selected>Selecione o tamanho</option>
@@ -111,17 +109,15 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
   }
 </script>
 
+## Sacola kraft branca promocional
 
-## Sacola duplex alça cordinha
-
-<img src="/img/products/duplex-cordinha.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
+<img src="/img/products/kraft-branca.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
 
 <select id="tamanho3" onchange="mostrarPreco3()">
   <option value="" selected>Selecione o tamanho</option>
-  <option value="pp">PP (22x23x10cm)</option>
-  <option value="p">P (32x23x10cm)</option>
-  <option value="m">M (35x29x11cm)</option>
-  <option value="g">G (42x35x12cm)</option>
+  <option value="p">P (18x23x11cm)</option>
+  <option value="m">M (24x32x11,5cm)</option>
+  <option value="g">G (30x31x19cm)</option>
 </select>
 
 <div id="preco3"></div>
@@ -132,29 +128,23 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
     var preco3;
 
     switch (tamanhoSelecionado3) {
-      case "pp":
-        preco3 = "1000 unidades R$ 2,99<br>" +
-                "500 unidades R$ 3,29<br>" +
-                "300 unidades R$ 3,59<br>" +
-                "200 unidades R$ 3,75";
-        break;
       case "p":
-        preco3 = "1000 unidades R$ 3,05<br>" +
-                "500 unidades R$ 3,44<br>" +
-                "300 unidades R$ 3,64<br>" +
-                "200 unidades R$ 3,78";
+        preco3 = "1000 unidades R$ 1,47<br>" +
+                "500 unidades R$ 1,57<br>" +
+                "300 unidades R$ 1,67<br>" +
+                "200 unidades R$ 1,87";
         break;
       case "m":
-        preco3 = "1000 unidades R$ 3,38<br>" +
-                "500 unidades R$ 3,64<br>" +
-                "300 unidades R$ 3,84<br>" +
-                "200 unidades R$ 3,99";
+        preco3 = "1000 unidades R$ 1,55<br>" +
+                "500 unidades R$ 1,65<br>" +
+                "300 unidades R$ 1,75<br>" +
+                "200 unidades R$ 1,95";
         break;
       case "g":
-        preco3 = "1000 unidades R$ 3,77<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,17<br>" +
-                "200 unidades R$ 4,53";
+        preco3 = "1000 unidades R$ 1,85<br>" +
+                "500 unidades R$ 1,95<br>" +
+                "300 unidades R$ 2,05<br>" +
+                "200 unidades R$ 2,25";
         break;
       default:
         preco3 = "";
@@ -164,3 +154,48 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
   }
 </script>
 
+
+## Sacola kraft promocional
+
+<img src="/img/products/kraft-promo.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
+
+<select id="tamanho4" onchange="mostrarPreco4()">
+  <option value="" selected>Selecione o tamanho</option>
+  <option value="p">P (18x23x11cm)</option>
+  <option value="m">M (24x32x11,5cm)</option>
+  <option value="g">G (30x31x19cm)</option>
+</select>
+
+<div id="preco4"></div>
+
+<script>
+  function mostrarPreco4() {
+    var tamanhoSelecionado4 = document.getElementById("tamanho4").value;
+    var preco4;
+
+    switch (tamanhoSelecionado4) {
+      case "p":
+        preco4 = "1000 unidades R$ 1,47<br>" +
+                "500 unidades R$ 1,57<br>" +
+                "300 unidades R$ 1,67<br>" +
+                "200 unidades R$ 1,87";
+        break;
+      case "m":
+        preco4 = "1000 unidades R$ 1,55<br>" +
+                "500 unidades R$ 1,65<br>" +
+                "300 unidades R$ 1,75<br>" +
+                "200 unidades R$ 1,95";
+        break;
+      case "g":
+        preco4 = "1000 unidades R$ 1,65<br>" +
+                "500 unidades R$ 1,75<br>" +
+                "300 unidades R$ 1,85<br>" +
+                "200 unidades R$ 2,05";
+        break;
+      default:
+        preco4 = "";
+    }
+
+    document.getElementById("preco4").innerHTML = preco4;
+  }
+</script>
