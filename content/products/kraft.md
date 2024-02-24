@@ -1,5 +1,5 @@
 ---
-title: "Sacolas kraft"
+title: "Sacolas de papel kraft"
 date: 2024-02-21T22:22:07-03:00
 draft: false
 description: Sacolas kraft de diversos tamanhos e finalidades.
@@ -106,51 +106,6 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
     }
 
     document.getElementById("preco2").innerHTML = preco2;
-  }
-</script>
-
-## Sacola kraft branca promocional
-
-<img src="/img/products/kraft-branca.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
-
-<select id="tamanho3" onchange="mostrarPreco3()">
-  <option value="" selected>Selecione o tamanho</option>
-  <option value="p">P (18x23x11cm)</option>
-  <option value="m">M (24x32x11,5cm)</option>
-  <option value="g">G (30x31x19cm)</option>
-</select>
-
-<div id="preco3"></div>
-
-<script>
-  function mostrarPreco3() {
-    var tamanhoSelecionado3 = document.getElementById("tamanho3").value;
-    var preco3;
-
-    switch (tamanhoSelecionado3) {
-      case "p":
-        preco3 = "1000 unidades R$ 1,47<br>" +
-                "500 unidades R$ 1,57<br>" +
-                "300 unidades R$ 1,67<br>" +
-                "200 unidades R$ 1,87";
-        break;
-      case "m":
-        preco3 = "1000 unidades R$ 1,55<br>" +
-                "500 unidades R$ 1,65<br>" +
-                "300 unidades R$ 1,75<br>" +
-                "200 unidades R$ 1,95";
-        break;
-      case "g":
-        preco3 = "1000 unidades R$ 1,85<br>" +
-                "500 unidades R$ 1,95<br>" +
-                "300 unidades R$ 2,05<br>" +
-                "200 unidades R$ 2,25";
-        break;
-      default:
-        preco3 = "";
-    }
-
-    document.getElementById("preco3").innerHTML = preco3;
   }
 </script>
 
