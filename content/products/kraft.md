@@ -118,7 +118,7 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
   <option value="" selected>Selecione o tamanho</option>
   <option value="p">P (18x23x11cm)</option>
   <option value="m">M (24x32x11,5cm)</option>
-  <option value="g">G (30x31x19cm)</option>
+  <option value="g">G (31x39x13,5cm)</option>
 </select>
 
 <div id="preco4"></div>
