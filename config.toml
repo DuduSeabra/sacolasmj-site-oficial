@@ -5,6 +5,7 @@ languageCode = "en"
 DefaultContentLanguage = "pt-br"
 enableInlineShortcodes = true
 theme = "tella"
+googleAnalytics = "G-LCYHJL7X90"
 enableRobotsTXT = true
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
