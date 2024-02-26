@@ -5,6 +5,7 @@ draft: false
 description: Sacolas de papel personalizáveis de diferentes tamanhos.
 ---
 
+<p>* O valor das sacolas inclui a personalização com a sua logo dos dois lados e em uma cor.</p>
 
 ## Sacola semijoias
 

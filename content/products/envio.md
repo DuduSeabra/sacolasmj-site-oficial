@@ -5,6 +5,7 @@ draft: false
 description: Sacos de envio com a sua logo.
 ---
 
+<p>* O valor dos sacos de envio inclui a personalização com a sua logo em um único lado e em uma cor.</p>
 
 <img src="/img/products/envio.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
 

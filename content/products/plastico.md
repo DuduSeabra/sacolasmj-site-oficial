@@ -6,6 +6,9 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
 ---
 
 
+<p>* O valor das sacolas inclui a personalização com a sua logo em um único lado e em uma cor.</p>
+
+
 ## Sacola alça cadeado
 
 <img src="/img/products/alca-cadeado.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">

@@ -5,6 +5,8 @@ draft: false
 description: Sacolas kraft de diversos tamanhos e finalidades.
 ---
 
+<p>* O valor das sacolas inclui a personalização com a sua logo dos dois lados e em uma cor.</p>
+
 ## Sacola kraft alça cordinha
 
 <img src="/img/products/kraft-cordinha.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
