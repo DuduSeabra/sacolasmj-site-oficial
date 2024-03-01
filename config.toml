@@ -43,15 +43,12 @@ enableRobotsTXT = true
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_og_title = "Tella"
+    meta_description = "Somos especialistas em sacolas personalizadas, oferecendo uma variedade de opções em plástico, papel e kraft. Destaque sua marca colocando sua logo em sacolas disponíveis em diversos tamanhos e modelos."
+    meta_og_title = "Sacolas MJ - Sacolas personalizadas de plástico, papel e kraft."
     meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
+    meta_og_url = "https://sacolasmj.netlify.app"
     meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@username"
-    meta_twitter_creator = "@username"
+    meta_og_description = "Somos especialistas em sacolas personalizadas, oferecendo uma variedade de opções em plástico, papel e kraft. Destaque sua marca colocando sua logo em sacolas disponíveis em diversos tamanhos e modelos."
 
 [menu]
 
