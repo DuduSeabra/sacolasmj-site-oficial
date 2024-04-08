@@ -121,22 +121,22 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado3) {
       case "p":
-        preco3 = "1000 unidades R$ 1,47<br>" +
-                "500 unidades R$ 1,57<br>" +
-                "300 unidades R$ 1,67<br>" +
-                "200 unidades R$ 1,87";
+        preco3 = "1000 unidades R$ 1,57<br>" +
+                "500 unidades R$ 1,67<br>" +
+                "300 unidades R$ 1,77<br>" +
+                "200 unidades R$ 1,97";
         break;
       case "m":
-        preco3 = "1000 unidades R$ 1,55<br>" +
-                "500 unidades R$ 1,65<br>" +
-                "300 unidades R$ 1,75<br>" +
-                "200 unidades R$ 1,95";
+        preco3 = "1000 unidades R$ 1,65<br>" +
+                "500 unidades R$ 1,75<br>" +
+                "300 unidades R$ 1,85<br>" +
+                "200 unidades R$ 2,05";
         break;
       case "g":
-        preco3 = "1000 unidades R$ 1,85<br>" +
-                "500 unidades R$ 1,95<br>" +
-                "300 unidades R$ 2,05<br>" +
-                "200 unidades R$ 2,25";
+        preco3 = "1000 unidades R$ 1,75<br>" +
+                "500 unidades R$ 1,85<br>" +
+                "300 unidades R$ 1,95<br>" +
+                "200 unidades R$ 2,15";
         break;
       default:
         preco3 = "";

@@ -120,7 +120,7 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
   <option value="" selected>Selecione o tamanho</option>
   <option value="p">P (18x23x11cm)</option>
   <option value="m">M (24x32x11,5cm)</option>
-  <option value="g">G (31x39x13,5cm)</option>
+  <option value="g">G (30x39x13,5cm ou 30x31x19cm)</option>
 </select>
 
 <div id="preco4"></div>
@@ -132,22 +132,22 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
 
     switch (tamanhoSelecionado4) {
       case "p":
-        preco4 = "1000 unidades R$ 1,47<br>" +
-                "500 unidades R$ 1,57<br>" +
-                "300 unidades R$ 1,67<br>" +
-                "200 unidades R$ 1,87";
+        preco4 = "1000 unidades R$ 1,57<br>" +
+                "500 unidades R$ 1,67<br>" +
+                "300 unidades R$ 1,77<br>" +
+                "200 unidades R$ 1,97";
         break;
       case "m":
-        preco4 = "1000 unidades R$ 1,55<br>" +
-                "500 unidades R$ 1,65<br>" +
-                "300 unidades R$ 1,75<br>" +
-                "200 unidades R$ 1,95";
-        break;
-      case "g":
         preco4 = "1000 unidades R$ 1,65<br>" +
                 "500 unidades R$ 1,75<br>" +
                 "300 unidades R$ 1,85<br>" +
                 "200 unidades R$ 2,05";
+        break;
+      case "g":
+        preco4 = "1000 unidades R$ 1,75<br>" +
+                "500 unidades R$ 1,85<br>" +
+                "300 unidades R$ 1,95<br>" +
+                "200 unidades R$ 2,15";
         break;
       default:
         preco4 = "";
