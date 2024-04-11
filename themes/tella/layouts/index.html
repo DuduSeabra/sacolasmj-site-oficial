@@ -10,6 +10,10 @@
     <meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
     <meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
     <meta property="og:locale" content="{{ replace (or .Language.LanguageCode "ja_JP") "-" "_" }}" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
@@ -22,49 +26,113 @@
     <style>
         .banner {
             position: relative;
+            background-color: #84b5ff; /* Cor de fundo desejada */
+            height: 690px; /* Altura desejada para o banner */
         }
     
         .s-fade-txt {
             position: absolute;
-            top: 50%;
+            top: 48%;
             left: 50%;
             transform: translate(-50%, -50%);
-            text-align: center;
+            text-align: left;
             color: black; /* Cor do texto */
             font-family: 'Montserrat', sans-serif; /* Escolha a fonte desejada */
-            font-weight: 700; /* Defina o peso da fonte */
+            font-weight: 800; /* Defina o peso da fonte */
             width: 80%; /* Set a width for the text container */
         }
-
-        @media screen and (max-width: 768px) { /* Altere este valor conforme necessário para se adequar aos dispositivos móveis */
+    
+        .swiper-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+        @media screen and (max-width: 768px) {
             #titulo {
                 font-size: 2.1rem; /* Tamanho menor do texto para telas menores */
             }
+            #slide {
+                width: 320px;
+                height: 240px;
+            }
+        }
+    
+        @media screen and (min-width: 769px) {
+            #slide {
+                width: 640px;
+                height: 480px;
+            }
+            #principal {
+                text-align: center;
+            }
+            #bannerazul {
+                height: 1000px;
+            }
         }
     </style>
+    
+    <div id="bannerazul" class="banner">
+        <div class="s-fade-txt">
+            <div id="principal">
+                <h1 id="titulo" class="text-6xl text-blue-900">Olá, somos a Sacolas MJ!</h1>
+                <br />
+                <p class="md:text-2xl text-bold text-blue-600">Transforme sua marca em uma experiência única</p>
+                <br />
+                <button id="botaoProdutos" class="bg-blue-700 hover:bg-blue-700 text-white font-semibold py-6 px-8 rounded-full border-8 border-blue-500">
+                    Conheça nossos produtos
+                </button>
+                <script>
+                    document.getElementById('botaoProdutos').addEventListener('click', function() {
+                        window.location.href = 'https://sacolasmj.netlify.app/products/';
+                    });
+                </script>
+            </div>
 
+            <br />
+            <br />
+            <br />
+            
 
-
-    <div class="banner">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="img/slide/slide01.jpg" alt="">
-                <div class="s-fade-txt">
-                    <h1 id="titulo" class="text-6xl text-white">Olá, somos a Sacolas MJ!</h1>
-                    <br />
-                    <p class="md:text-2xl text-bold text-blue-500">Transforme sua marca em uma experiência única</p>
-                    <br />
-                    <button id="botaoProdutos" class="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Conheça nossos produtos
-                    </button>
-                    <script>
-                        document.getElementById('botaoProdutos').addEventListener('click', function() {
-                            window.location.href = 'https://sacolasmj.netlify.app/products/';
-                        });
-                    </script>
+            <div id="slide" class="relative rounded-3xl mx-auto my-auto" style="box-shadow: 0px 0px 20px 0px rgba(16, 81, 223, 0.945); "> <!-- Adicionando uma sombra azul -->
+                <div class="swiper-container rounded-3xl" style="width: 100%; height: 100%;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="rounded-3xl shadow-xl mr-4" src="/img/products/kraft-gorgurao.jpeg" alt="" style="width: 100%; height: 100%;">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="rounded-3xl shadow-xl mr-4" src="/img/products/duplex-cordinha.jpeg" alt="" style="width: 100%; height: 100%;">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="rounded-3xl shadow-xl" src="/img/products/alca-cadeado.jpeg" alt="" style="width: 100%; height: 100%;">
+                        </div>
+                        <!-- Adicione mais slides conforme necessário -->
+                    </div>
+                    <!-- Adicione as setas de navegação -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
+
+            <!-- <script>
+                var swiper = new Swiper('.swiper-container', {
+                    // Parâmetros opcionais
+                    loop: true, // Para criar um loop de slides
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script> -->
         </div>
+
+
     </div>
     {{- partial "strip.html" . -}}
     {{ if ne .Site.Params.showBlog false }}
