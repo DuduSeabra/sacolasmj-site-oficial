@@ -11,7 +11,7 @@ description: Sacos de envio com a sua logo.
 
 <select id="tamanho1" onchange="mostrarPreco1()">
   <option value="" selected>Selecione o tamanho</option>
-  <option value="pp">32x40cm</option>
+  <option value="pp">30x42cm</option>
   <option value="p">40x50cm</option>
 </select>
 
