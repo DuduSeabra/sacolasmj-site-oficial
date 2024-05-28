@@ -29,11 +29,11 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
     switch (tamanhoSelecionado1) {
       case "pp":
         preco1 = "1000 unidades R$ 0,86<br>" +
-                "500 unidades R$ 0,97<br>";
+                "500 unidades R$ 0,96<br>";
         break;
       case "p":
-        preco1 = "1000 unidades R$ 1,03<br>" +
-                "500 unidades R$ 1,14<br>";
+        preco1 = "1000 unidades R$ 1,02<br>" +
+                "500 unidades R$ 1,12<br>";
         break;
       default:
         preco1 = "";
@@ -67,28 +67,28 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
 
     switch (tamanhoSelecionado2) {
       case "pp":
-        preco2 = "1000 unidades R$ 0,75<br>" +
-                "500 unidades R$ 0,86<br>";
+        preco2 = "1000 unidades R$ 0,78<br>" +
+                "500 unidades R$ 0,88<br>";
         break;
       case "p":
-        preco2 = "1000 unidades R$ 0,84<br>" +
-                "500 unidades R$ 0,95<br>";
+        preco2 = "1000 unidades R$ 0,83<br>" +
+                "500 unidades R$ 0,93<br>";
         break;
       case "m":
-        preco2 = "1000 unidades R$ 1,07<br>" +
-                "500 unidades R$ 1,18<br>";
+        preco2 = "1000 unidades R$ 1,05<br>" +
+                "500 unidades R$ 1,15<br>";
         break;
       case "g":
-        preco2 = "1000 unidades R$ 0,88<br>" +
+        preco2 = "1000 unidades R$ 0,89<br>" +
                 "500 unidades R$ 0,99<br>";
         break;
       case "xg":
-        preco2 = "1000 unidades R$ 0,95<br>" +
-                "500 unidades R$ 1,06<br>";
+        preco2 = "1000 unidades R$ 0,97<br>" +
+                "500 unidades R$ 1,07<br>";
         break;
       case "xxg":
-        preco2 = "1000 unidades R$ 1,25<br>" +
-                "500 unidades R$ 1,36<br>";
+        preco2 = "1000 unidades R$ 1,29<br>" +
+                "500 unidades R$ 1,39<br>";
         break;
       default:
         preco2 = "";
@@ -126,44 +126,44 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
 
     switch (tamanhoSelecionado3) {
       case "pp":
-        preco3 = "1000 unidades R$ 0,51<br>" +
-                "500 unidades R$ 0,62<br>";
+        preco3 = "1000 unidades R$ 0,54<br>" +
+                "500 unidades R$ 0,64<br>";
         break;
       case "p":
-        preco3 = "1000 unidades R$ 0,56<br>" +
+        preco3 = "1000 unidades R$ 0,57<br>" +
                 "500 unidades R$ 0,67<br>";
         break;
       case "m":
-        preco3 = "1000 unidades R$ 0,58<br>" +
+        preco3 = "1000 unidades R$ 0,59<br>" +
                 "500 unidades R$ 0,69<br>";
         break;
       case "g":
-        preco3 = "1000 unidades R$ 0,71<br>" +
-                "500 unidades R$ 0,79<br>";
+        preco3 = "1000 unidades R$ 0,65<br>" +
+                "500 unidades R$ 0,75<br>";
         break;
       case "xg":
-        preco3 = "1000 unidades R$ 0,76<br>" +
-                "500 unidades R$ 0,88<br>";
+        preco3 = "1000 unidades R$ 0,75<br>" +
+                "500 unidades R$ 0,85<br>";
         break;
       case "xxg":
-        preco3 = "1000 unidades R$ 0,55<br>" +
+        preco3 = "1000 unidades R$ 0,56<br>" +
                 "500 unidades R$ 0,66<br>";
         break;
       case "xxxg":
         preco3 = "1000 unidades R$ 0,63<br>" +
-                "500 unidades R$ 0,74<br>";
+                "500 unidades R$ 0,73<br>";
         break;
       case "xxxxg":
-        preco3 = "1000 unidades R$ 0,67<br>" +
-                "500 unidades R$ 0,78<br>";
+        preco3 = "1000 unidades R$ 0,66<br>" +
+                "500 unidades R$ 0,76<br>";
         break;
       case "xxxxxg":
         preco3 = "1000 unidades R$ 0,75<br>" +
-                "500 unidades R$ 0,86<br>";
+                "500 unidades R$ 0,85<br>";
         break;
       case "xxxxxxg":
-        preco3 = "1000 unidades R$ 0,94<br>" +
-                "500 unidades R$ 1,05<br>";
+        preco3 = "1000 unidades R$ 1,04<br>" +
+                "500 unidades R$ 1,14<br>";
         break;
       default:
         preco3 = "";
