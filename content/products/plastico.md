@@ -1,6 +1,6 @@
 ---
 title: "Sacolas de plástico"
-date: 2024-02-15T11:45:07-03:00
+date: 2024-07-15T11:45:07-03:00
 draft: false
 description: Sacolas plásticas personalizáveis de diferentes modelos e tamanhos.
 ---

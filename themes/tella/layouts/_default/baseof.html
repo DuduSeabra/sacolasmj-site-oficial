@@ -5,17 +5,27 @@
   {{- partial "head.html" . -}}
   {{ block "meta_tags" . }}{{end}}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow">
     {{- partial "header.html" . -}}
-    <div class="scroll-top rounded-full">
-      <span class="fab fa-whatsapp text-2xl"></span>
-    </div>
     {{- block "main" . }}{{- end }}
   </main>
+  
+  <div class="scroll-top rounded-full">
+    <span class="fab fa-whatsapp text-2xl"></span>
+  </div>
+  
   {{- partial "footer.html" . -}}
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.querySelector('.scroll-top').addEventListener('click', () => {
+      window.open('https://api.whatsapp.com/send?1=pt_BR&phone=5524999043166');
+    });
+  </script>
 </body>
 
 </html>
