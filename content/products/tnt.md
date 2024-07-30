@@ -14,7 +14,7 @@ description: Sacolas de tnt personalizáveis.
 
 #### 34x40cm
 
-##### 1000 unidades R$ 3,64
-##### 500 unidades R$ 3,84
-##### 300 unidades R$ 3,94
+##### 1000 sacolas: R$ 3,64 por unidade
+##### 500 sacolas: R$ 3,84 por unidade
+##### 300 sacolas: R$ 3,94 por unidade
 

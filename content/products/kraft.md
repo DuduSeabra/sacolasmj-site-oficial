@@ -28,28 +28,28 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
 
     switch (tamanhoSelecionado1) {
       case "pp":
-        preco1 = "1000 unidades R$ 2,99<br>" +
-                "500 unidades R$ 3,29<br>" +
-                "300 unidades R$ 3,59<br>" +
-                "200 unidades R$ 3,75";
+        preco1 = "1000 sacolas: R$ 2,99 por unidade<br>" +
+                "500 sacolas: R$ 3,29 por unidade<br>" +
+                "300 sacolas: R$ 3,59 por unidade<br>" +
+                "200 sacolas: R$ 3,75 por unidade";
         break;
       case "p":
-        preco1 = "1000 unidades R$ 3,05<br>" +
-                "500 unidades R$ 3,44<br>" +
-                "300 unidades R$ 3,64<br>" +
-                "200 unidades R$ 3,78";
+        preco1 = "1000 sacolas: R$ 3,05 por unidade<br>" +
+                "500 sacolas: R$ 3,44 por unidade<br>" +
+                "300 sacolas: R$ 3,64 por unidade<br>" +
+                "200 sacolas: R$ 3,78 por unidade";
         break;
       case "m":
-        preco1 = "1000 unidades R$ 3,38<br>" +
-                "500 unidades R$ 3,64<br>" +
-                "300 unidades R$ 3,84<br>" +
-                "200 unidades R$ 3,99";
+        preco1 = "1000 sacolas: R$ 3,38 por unidade<br>" +
+                "500 sacolas: R$ 3,64 por unidade<br>" +
+                "300 sacolas: R$ 3,84 por unidade<br>" +
+                "200 sacolas: R$ 3,99 por unidade";
         break;
       case "g":
-        preco1 = "1000 unidades R$ 3,77<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,17<br>" +
-                "200 unidades R$ 4,53";
+        preco1 = "1000 sacolas: R$ 3,77 por unidade<br>" +
+                "500 sacolas: R$ 3,99 por unidade<br>" +
+                "300 sacolas: R$ 4,17 por unidade<br>" +
+                "200 sacolas: R$ 4,53 por unidade";
         break;
       default:
         preco1 = "";
@@ -80,28 +80,28 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
 
     switch (tamanhoSelecionado2) {
       case "pp":
-        preco2 = "1000 unidades R$ 2,99<br>" +
-                "500 unidades R$ 3,29<br>" +
-                "300 unidades R$ 3,59<br>" +
-                "200 unidades R$ 3,75";
+        preco2 = "1000 sacolas: R$ 2,99 por unidade<br>" +
+                "500 sacolas: R$ 3,29 por unidade<br>" +
+                "300 sacolas: R$ 3,59 por unidade<br>" +
+                "200 sacolas: R$ 3,75 por unidade";
         break;
       case "p":
-        preco2 = "1000 unidades R$ 3,05<br>" +
-                "500 unidades R$ 3,44<br>" +
-                "300 unidades R$ 3,64<br>" +
-                "200 unidades R$ 3,78";
+        preco2 = "1000 sacolas: R$ 3,05 por unidade<br>" +
+                "500 sacolas: R$ 3,44 por unidade<br>" +
+                "300 sacolas: R$ 3,64 por unidade<br>" +
+                "200 sacolas: R$ 3,78 por unidade";
         break;
       case "m":
-        preco2 = "1000 unidades R$ 3,38<br>" +
-                "500 unidades R$ 3,64<br>" +
-                "300 unidades R$ 3,84<br>" +
-                "200 unidades R$ 3,99";
+        preco2 = "1000 sacolas: R$ 3,38 por unidade<br>" +
+                "500 sacolas: R$ 3,64 por unidade<br>" +
+                "300 sacolas: R$ 3,84 por unidade<br>" +
+                "200 sacolas: R$ 3,99 por unidade";
         break;
       case "g":
-        preco2 = "1000 unidades R$ 3,77<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,17<br>" +
-                "200 unidades R$ 4,53";
+        preco2 = "1000 sacolas: R$ 3,77 por unidade<br>" +
+                "500 sacolas: R$ 3,99 por unidade<br>" +
+                "300 sacolas: R$ 4,17 por unidade<br>" +
+                "200 sacolas: R$ 4,53 por unidade";
         break;
       default:
         preco2 = "";
@@ -132,22 +132,22 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
 
     switch (tamanhoSelecionado4) {
       case "p":
-        preco4 = "1000 unidades R$ 1,57<br>" +
-                "500 unidades R$ 1,67<br>" +
-                "300 unidades R$ 1,77<br>" +
-                "200 unidades R$ 1,97";
+        preco4 = "1000 sacolas: R$ 1,57 por unidade<br>" +
+                "500 sacolas: R$ 1,67 por unidade<br>" +
+                "300 sacolas: R$ 1,77 por unidade<br>" +
+                "200 sacolas: R$ 1,97 por unidade";
         break;
       case "m":
-        preco4 = "1000 unidades R$ 1,65<br>" +
-                "500 unidades R$ 1,75<br>" +
-                "300 unidades R$ 1,85<br>" +
-                "200 unidades R$ 2,05";
+        preco4 = "1000 sacolas: R$ 1,65 por unidade<br>" +
+                "500 sacolas: R$ 1,75 por unidade<br>" +
+                "300 sacolas: R$ 1,85 por unidade<br>" +
+                "200 sacolas: R$ 2,05 por unidade";
         break;
       case "g":
-        preco4 = "1000 unidades R$ 1,75<br>" +
-                "500 unidades R$ 1,85<br>" +
-                "300 unidades R$ 1,95<br>" +
-                "200 unidades R$ 2,15";
+        preco4 = "1000 sacolas: R$ 1,75 por unidade<br>" +
+                "500 sacolas: R$ 1,85 por unidade<br>" +
+                "300 sacolas: R$ 1,95 por unidade<br>" +
+                "200 sacolas: R$ 2,15 por unidade";
         break;
       default:
         preco4 = "";

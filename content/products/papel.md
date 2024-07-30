@@ -28,16 +28,16 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado1) {
       case "pp":
-        preco1 = "1000 unidades R$ 2,40<br>" +
-                "500 unidades R$ 2,69<br>" +
-                "300 unidades R$ 2,77<br>" +
-                "200 unidades R$ 3,09";
+        preco1 = "1000 sacolas: R$ 2,40 por unidade<br>" +
+                "500 sacolas: R$ 2,69 por unidade<br>" +
+                "300 sacolas: R$ 2,77 por unidade<br>" +
+                "200 sacolas: R$ 3,09 por unidade";
         break;
       case "p":
-        preco1 = "1000 unidades R$ 2,65<br>" +
-                "500 unidades R$ 2,85<br>" +
-                "300 unidades R$ 3,15<br>" +
-                "200 unidades R$ 3,29";
+        preco1 = "1000 sacolas: R$ 2,65 por unidade<br>" +
+                "500 sacolas: R$ 2,85 por unidade<br>" +
+                "300 sacolas: R$ 3,15 por unidade<br>" +
+                "200 sacolas: R$ 3,29 por unidade";
         break;
       default:
         preco1 = "";
@@ -69,28 +69,28 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado2) {
       case "pp":
-        preco2 = "1000 unidades R$ 3,39<br>" +
-                "500 unidades R$ 3,69<br>" +
-                "300 unidades R$ 3,89<br>" +
-                "200 unidades R$ 4,13";
+        preco2 = "1000 sacolas: R$ 3,39 por unidade<br>" +
+                "500 sacolas: R$ 3,69 por unidade<br>" +
+                "300 sacolas: R$ 3,89 por unidade<br>" +
+                "200 sacolas: R$ 4,13 por unidade";
         break;
       case "p":
-        preco2 = "1000 unidades R$ 3,69<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,20<br>" +
-                "200 unidades R$ 4,39";
+        preco2 = "1000 sacolas: R$ 3,69 por unidade<br>" +
+                "500 sacolas: R$ 3,99 por unidade<br>" +
+                "300 sacolas: R$ 4,20 por unidade<br>" +
+                "200 sacolas: R$ 4,39 por unidade";
         break;
       case "m":
-        preco2 = "1000 unidades R$ 3,96<br>" +
-                "500 unidades R$ 4,39<br>" +
-                "300 unidades R$ 4,69<br>" +
-                "200 unidades R$ 4,99";
+        preco2 = "1000 sacolas: R$ 3,96 por unidade<br>" +
+                "500 sacolas: R$ 4,39 por unidade<br>" +
+                "300 sacolas: R$ 4,69 por unidade<br>" +
+                "200 sacolas: R$ 4,99 por unidade";
         break;
       case "g":
-        preco2 = "1000 unidades R$ 4,39<br>" +
-                "500 unidades R$ 4,59<br>" +
-                "300 unidades R$ 4,79<br>" +
-                "200 unidades R$ 4,99";
+        preco2 = "1000 sacolas: R$ 4,39 por unidade<br>" +
+                "500 sacolas: R$ 4,59 por unidade<br>" +
+                "300 sacolas: R$ 4,79 por unidade<br>" +
+                "200 sacolas: R$ 4,99 por unidade";
         break;
       default:
         preco2 = "";
@@ -121,22 +121,22 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado3) {
       case "p":
-        preco3 = "1000 unidades R$ 1,57<br>" +
-                "500 unidades R$ 1,67<br>" +
-                "300 unidades R$ 1,77<br>" +
-                "200 unidades R$ 1,97";
+        preco3 = "1000 sacolas: R$ 1,57 por unidade<br>" +
+                "500 sacolas: R$ 1,67 por unidade<br>" +
+                "300 sacolas: R$ 1,77 por unidade<br>" +
+                "200 sacolas: R$ 1,97 por unidade";
         break;
       case "m":
-        preco3 = "1000 unidades R$ 1,65<br>" +
-                "500 unidades R$ 1,75<br>" +
-                "300 unidades R$ 1,85<br>" +
-                "200 unidades R$ 2,05";
+        preco3 = "1000 sacolas: R$ 1,65 por unidade<br>" +
+                "500 sacolas: R$ 1,75 por unidade<br>" +
+                "300 sacolas: R$ 1,85 por unidade<br>" +
+                "200 sacolas: R$ 2,05 por unidade";
         break;
       case "g":
-        preco3 = "1000 unidades R$ 1,75<br>" +
-                "500 unidades R$ 1,85<br>" +
-                "300 unidades R$ 1,95<br>" +
-                "200 unidades R$ 2,15";
+        preco3 = "1000 sacolas: R$ 1,75 por unidade<br>" +
+                "500 sacolas: R$ 1,85 por unidade<br>" +
+                "300 sacolas: R$ 1,95 por unidade<br>" +
+                "200 sacolas: R$ 2,15 por unidade";
         break;
       default:
         preco3 = "";
@@ -168,28 +168,28 @@ description: Sacolas de papel personalizáveis de diferentes tamanhos.
 
     switch (tamanhoSelecionado4) {
       case "pp":
-        preco4 = "1000 unidades R$ 3,39<br>" +
-                "500 unidades R$ 3,69<br>" +
-                "300 unidades R$ 3,89<br>" +
-                "200 unidades R$ 4,13";
+        preco4 = "1000 sacolas: R$ 3,39 por unidade<br>" +
+                "500 sacolas: R$ 3,69 por unidade<br>" +
+                "300 sacolas: R$ 3,89 por unidade<br>" +
+                "200 sacolas: R$ 4,13 por unidade";
         break;
       case "p":
-        preco4 = "1000 unidades R$ 3,69<br>" +
-                "500 unidades R$ 3,99<br>" +
-                "300 unidades R$ 4,20<br>" +
-                "200 unidades R$ 4,39";
+        preco4 = "1000 sacolas: R$ 3,69 por unidade<br>" +
+                "500 sacolas: R$ 3,99 por unidade<br>" +
+                "300 sacolas: R$ 4,20 por unidade<br>" +
+                "200 sacolas: R$ 4,39 por unidade";
         break;
       case "m":
-        preco4 = "1000 unidades R$ 3,96<br>" +
-                "500 unidades R$ 4,39<br>" +
-                "300 unidades R$ 4,69<br>" +
-                "200 unidades R$ 4,99";
+        preco4 = "1000 sacolas: R$ 3,96 por unidade<br>" +
+                "500 sacolas: R$ 4,39 por unidade<br>" +
+                "300 sacolas: R$ 4,69 por unidade<br>" +
+                "200 sacolas: R$ 4,99 por unidade";
         break;
       case "g":
-        preco4 = "1000 unidades R$ 4,39<br>" +
-                "500 unidades R$ 4,59<br>" +
-                "300 unidades R$ 4,79<br>" +
-                "200 unidades R$ 4,99";
+        preco4 = "1000 sacolas: R$ 4,39 por unidade<br>" +
+                "500 sacolas: R$ 4,59 por unidade<br>" +
+                "300 sacolas: R$ 4,79 por unidade<br>" +
+                "200 sacolas: R$ 4,99 por unidade";
         break;
       default:
         preco4 = "";

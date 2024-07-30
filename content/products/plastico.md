@@ -28,12 +28,12 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
 
     switch (tamanhoSelecionado1) {
       case "pp":
-        preco1 = "1000 unidades R$ 0,86<br>" +
-                "500 unidades R$ 0,96<br>";
+        preco1 = "1000 sacolas: R$ 0,86 por unidade<br>" +
+                "500 sacolas: R$ 0,96 por unidade<br>";
         break;
       case "p":
-        preco1 = "1000 unidades R$ 1,02<br>" +
-                "500 unidades R$ 1,12<br>";
+        preco1 = "1000 sacolas: R$ 1,02 por unidade<br>" +
+                "500 sacolas: R$ 1,12 por unidade<br>";
         break;
       default:
         preco1 = "";
@@ -67,28 +67,28 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
 
     switch (tamanhoSelecionado2) {
       case "pp":
-        preco2 = "1000 unidades R$ 0,78<br>" +
-                "500 unidades R$ 0,88<br>";
+        preco2 = "1000 sacolas: R$ 0,78 por unidade<br>" +
+                "500 sacolas: R$ 0,88 por unidade<br>";
         break;
       case "p":
-        preco2 = "1000 unidades R$ 0,83<br>" +
-                "500 unidades R$ 0,93<br>";
+        preco2 = "1000 sacolas: R$ 0,83 por unidade<br>" +
+                "500 sacolas: R$ 0,93 por unidade<br>";
         break;
       case "m":
-        preco2 = "1000 unidades R$ 1,05<br>" +
-                "500 unidades R$ 1,15<br>";
+        preco2 = "1000 sacolas: R$ 1,05 por unidade<br>" +
+                "500 sacolas: R$ 1,15 por unidade<br>";
         break;
       case "g":
-        preco2 = "1000 unidades R$ 0,89<br>" +
-                "500 unidades R$ 0,99<br>";
+        preco2 = "1000 sacolas: R$ 0,89 por unidade<br>" +
+                "500 sacolas: R$ 0,99 por unidade<br>";
         break;
       case "xg":
-        preco2 = "1000 unidades R$ 0,97<br>" +
-                "500 unidades R$ 1,07<br>";
+        preco2 = "1000 sacolas: R$ 0,97 por unidade<br>" +
+                "500 sacolas: R$ 1,07 por unidade<br>";
         break;
       case "xxg":
-        preco2 = "1000 unidades R$ 1,29<br>" +
-                "500 unidades R$ 1,39<br>";
+        preco2 = "1000 sacolas: R$ 1,29 por unidade<br>" +
+                "500 sacolas: R$ 1,39 por unidade<br>";
         break;
       default:
         preco2 = "";
@@ -126,44 +126,44 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
 
     switch (tamanhoSelecionado3) {
       case "pp":
-        preco3 = "1000 unidades R$ 0,54<br>" +
-                "500 unidades R$ 0,64<br>";
+        preco3 = "1000 sacolas: R$ 0,54 por unidade<br>" +
+                "500 sacolas: R$ 0,64 por unidade<br>";
         break;
       case "p":
-        preco3 = "1000 unidades R$ 0,57<br>" +
-                "500 unidades R$ 0,67<br>";
+        preco3 = "1000 sacolas: R$ 0,57 por unidade<br>" +
+                "500 sacolas: R$ 0,67 por unidade<br>";
         break;
       case "m":
-        preco3 = "1000 unidades R$ 0,59<br>" +
-                "500 unidades R$ 0,69<br>";
+        preco3 = "1000 sacolas: R$ 0,59 por unidade<br>" +
+                "500 sacolas: R$ 0,69 por unidade<br>";
         break;
       case "g":
-        preco3 = "1000 unidades R$ 0,65<br>" +
-                "500 unidades R$ 0,75<br>";
+        preco3 = "1000 sacolas: R$ 0,65 por unidade<br>" +
+                "500 sacolas: R$ 0,75 por unidade<br>";
         break;
       case "xg":
-        preco3 = "1000 unidades R$ 0,75<br>" +
-                "500 unidades R$ 0,85<br>";
+        preco3 = "1000 sacolas: R$ 0,75 por unidade<br>" +
+                "500 sacolas: R$ 0,85 por unidade<br>";
         break;
       case "xxg":
-        preco3 = "1000 unidades R$ 0,56<br>" +
-                "500 unidades R$ 0,66<br>";
+        preco3 = "1000 sacolas: R$ 0,56 por unidade<br>" +
+                "500 sacolas: R$ 0,66 por unidade<br>";
         break;
       case "xxxg":
-        preco3 = "1000 unidades R$ 0,63<br>" +
-                "500 unidades R$ 0,73<br>";
+        preco3 = "1000 sacolas: R$ 0,63 por unidade<br>" +
+                "500 sacolas: R$ 0,73 por unidade<br>";
         break;
       case "xxxxg":
-        preco3 = "1000 unidades R$ 0,66<br>" +
-                "500 unidades R$ 0,76<br>";
+        preco3 = "1000 sacolas: R$ 0,66 por unidade<br>" +
+                "500 sacolas: R$ 0,76 por unidade<br>";
         break;
       case "xxxxxg":
-        preco3 = "1000 unidades R$ 0,75<br>" +
-                "500 unidades R$ 0,85<br>";
+        preco3 = "1000 sacolas: R$ 0,75 por unidade<br>" +
+                "500 sacolas: R$ 0,85 por unidade<br>";
         break;
       case "xxxxxxg":
-        preco3 = "1000 unidades R$ 1,04<br>" +
-                "500 unidades R$ 1,14<br>";
+        preco3 = "1000 sacolas: R$ 1,04 por unidade<br>" +
+                "500 sacolas: R$ 1,14 por unidade<br>";
         break;
       default:
         preco3 = "";

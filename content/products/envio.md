@@ -24,14 +24,14 @@ description: Sacos de envio com a sua logo.
 
     switch (tamanhoSelecionado1) {
       case "pp":
-        preco1 = "500 unidades R$ 1,66<br>" +
-                "350 unidades R$ 1,79<br>" +
-                "250 unidades R$ 1,99<br>";
+        preco1 = "500 sacolas: R$ 1,66 por unidade<br>" +
+                "350 sacolas: R$ 1,79 por unidade<br>" +
+                "250 sacolas: R$ 1,99 por unidade<br>";
         break;
       case "p":
-        preco1 = "500 unidades R$ 2,60<br>" +
-                "350 unidades R$ 2,70<br>" +
-                "250 unidades R$ 2,90<br>";
+        preco1 = "500 sacolas: R$ 2,60 por unidade<br>" +
+                "350 sacolas: R$ 2,70 por unidade<br>" +
+                "250 sacolas: R$ 2,90 por unidade<br>";
         break;
       default:
         preco1 = "";
