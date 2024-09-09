@@ -173,6 +173,60 @@ description: Sacolas plásticas personalizáveis de diferentes modelos e tamanho
   }
 </script>
 
+
+
+## Sacola cristal boca de palhaço
+
+<img src="/img/products/sacola-plastico-cristal-palhaco.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
+
+<select id="tamanho4" onchange="mostrarPreco4()">
+  <option value="" selected>Selecione o tamanho</option>
+  <option value="pp">15x20x0,12</option>
+  <option value="p">20x30x0,12</option>
+  <option value="m">25x30x0,12</option>
+  <option value="g">30x40x0,12</option>
+  <option value="xg">40x50x0,12</option>
+</select>
+
+<div id="preco4"></div>
+
+<script>
+  function mostrarPreco4() {
+    var tamanhoSelecionado4 = document.getElementById("tamanho4").value;
+    var preco4;
+
+    switch (tamanhoSelecionado4) {
+      case "pp":
+        preco4 = "1000 sacolas: R$ 0,58 por unidade<br>" +
+                "500 sacolas: R$ 0,68 por unidade<br>";
+        break;
+      case "p":
+        preco4 = "1000 sacolas: R$ 0,65 por unidade<br>" +
+                "500 sacolas: R$ 0,75 por unidade<br>";
+        break;
+      case "m":
+        preco4 = "1000 sacolas: R$ 0,69 por unidade<br>" +
+                "500 sacolas: R$ 0,79 por unidade<br>";
+        break;
+      case "g":
+        preco4 = "1000 sacolas: R$ 0,81 por unidade<br>" +
+                "500 sacolas: R$ 0,91 por unidade<br>";
+        break;
+      case "xg":
+        preco4 = "1000 sacolas: R$ 1,04 por unidade<br>" +
+                "500 sacolas: R$ 1,14 por unidade<br>";
+        break;
+      default:
+        preco4 = "";
+    }
+
+    document.getElementById("preco4").innerHTML = preco4;
+  }
+</script>
+
+
+
+
 <br>
 
 <button id="whatsapp-button" class="bg-green-500 hover:bg-green-600 text-black font-semibold py-2 px-4 rounded flex">
