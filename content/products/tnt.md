@@ -10,7 +10,7 @@ description: Sacolas de tnt personalizáveis.
 
 ## Sacola TNT branco ou preto
 
-<img src="/img/products/sacola-tnt.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
+<img src="/img/products/sacola-tnt1.jpeg" alt="Sacola pp" title="Sacola pp" style="width: 450px; height: auto;">
 
 #### 34x40cm
 
