@@ -132,22 +132,22 @@ description: Sacolas kraft de diversos tamanhos e finalidades.
 
     switch (tamanhoSelecionado4) {
       case "p":
-        preco4 = "1000 sacolas: R$ 1,57 por unidade<br>" +
-                "500 sacolas: R$ 1,67 por unidade<br>" +
-                "300 sacolas: R$ 1,77 por unidade<br>" +
-                "200 sacolas: R$ 1,97 por unidade";
+        preco4 = "1000 sacolas: R$ 1,73 por unidade<br>" +
+                "500 sacolas: R$ 1,84 por unidade<br>" +
+                "300 sacolas: R$ 1,95 por unidade<br>" +
+                "200 sacolas: R$ 2,17 por unidade";
         break;
       case "m":
-        preco4 = "1000 sacolas: R$ 1,65 por unidade<br>" +
-                "500 sacolas: R$ 1,75 por unidade<br>" +
-                "300 sacolas: R$ 1,85 por unidade<br>" +
-                "200 sacolas: R$ 2,05 por unidade";
+        preco4 = "1000 sacolas: R$ 1,82 por unidade<br>" +
+                "500 sacolas: R$ 1,93 por unidade<br>" +
+                "300 sacolas: R$ 2,04 por unidade<br>" +
+                "200 sacolas: R$ 2,26 por unidade";
         break;
       case "g":
-        preco4 = "1000 sacolas: R$ 1,75 por unidade<br>" +
-                "500 sacolas: R$ 1,85 por unidade<br>" +
-                "300 sacolas: R$ 1,95 por unidade<br>" +
-                "200 sacolas: R$ 2,15 por unidade";
+        preco4 = "1000 sacolas: R$ 1,93 por unidade<br>" +
+                "500 sacolas: R$ 2,04 por unidade<br>" +
+                "300 sacolas: R$ 2,15 por unidade<br>" +
+                "200 sacolas: R$ 2,37 por unidade";
         break;
       default:
         preco4 = "";
