@@ -1,0 +1,7 @@
+[build]
+  command = "npm ci && hugo --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.122.0"
+  NODE_VERSION = "18"
